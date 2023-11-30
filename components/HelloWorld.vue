@@ -13,7 +13,7 @@
       <div class="flex justify-center items-center h-100vh">
         <v-card class="sm:w-500px sm:h-500px">
           <div>
-            Ola
+            Ola asd 
           </div>
         </v-card>
       </div>
@@ -30,6 +30,7 @@ const userVariable = ref(null)
 const loading = ref(false)
 
 onMounted(() => {
+
   loading.value = true
   useIntervalFn(() => {
     loading.value = false

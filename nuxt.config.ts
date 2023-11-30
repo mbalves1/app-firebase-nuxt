@@ -6,8 +6,8 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@vueuse/nuxt',
     '@unocss/nuxt',
-    '@formkit/auto-animate/nuxt',
-    ['@nuxtjs/firebase', {
+    ['nuxt-vuefire',
+    {
       config: {
         apiKey: "AIzaSyBda-DX_RYl0tbRGHWwfBjKqX8sfGAYk4g",
         authDomain: "nuxt-firebase-92975.firebaseapp.com",

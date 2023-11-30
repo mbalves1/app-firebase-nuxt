@@ -21,9 +21,11 @@
   },
   "dependencies": {
     "@formkit/auto-animate": "^0.8.1",
-    "@nuxtjs/firebase": "^8.2.2",
     "@pinia/nuxt": "^0.5.1",
     "@vueuse/nuxt": "^10.6.1",
-    "pinia": "^2.1.7"
+    "firebase": "^10.7.0",
+    "nuxt-vuefire": "^0.4.1",
+    "pinia": "^2.1.7",
+    "vuefire": "^3.1.18"
   }
 }
