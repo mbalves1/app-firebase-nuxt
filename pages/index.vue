@@ -1,5 +1,5 @@
 <template>
   <div>
-    <HelloWorld></HelloWorld>
+    <wrapper-component></wrapper-component>
   </div>
 </template>

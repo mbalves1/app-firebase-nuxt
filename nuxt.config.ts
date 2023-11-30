@@ -18,6 +18,11 @@ export default defineNuxtConfig({
       },
     }]
   ],
+  // vuefire: {
+  //   auth: {
+  //     enabled: true
+  //   }
+  // },
   imports: {
     dirs: [
       'store',
@@ -34,4 +39,18 @@ export default defineNuxtConfig({
   css: [
     '~/assets/style.scss'
   ],
+  router: {
+    beforeEach: (to, from, next) => {
+      const permissions = localStorage.getItem('token')
+      if (!permissions) {
+        next({
+          path: '/'
+        })
+      } else {
+        next({
+          path: '/home'
+        })
+      }
+    }
+  }
 })
